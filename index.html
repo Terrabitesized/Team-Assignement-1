@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+       <style>
+        header{height: 30px;}
+        nav,  footer {  clear:both;
+        background-color: #aeaca8;
+        color: #fff;   height: 30px;}
+        
+        
+  nav ul{margin: 0px; 
+        padding: 5px 0px 5px 30px;
+        }
+        nav li{display: inline;
+        margin-right: 40px;}
+        
+        nav li a{color: #fff;}
+        
+        a{text-decoration: none;}
+        nav li a:hover, nav li a.current
+        {color:blue;} 
+           
+           h1, button, nav li, .news_item, p{
+            font-family: 'Lato', sans-serif;
+        }
+          
+}
+    </style>
+    
+</head>
+
+<body>
+    
+        <!--header section-->
+     <header>
+           
+            <nav>
+                <ul>
+                    <li><a href= Home.html>Home</a></li>
+                    <li><a>Information</a></li>
+                    <li><a >About us</a></li>
+                    <li><a href="FAQ's.html">FAQ's</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+
+            </nav>
+        </header>
+  
+  
+    <section>
+        <h1>Welcome to our page!</h1>
+
+        <img src="AI.avif" alt="AI images">
+
+        <p class="news_item">Introductory Paragraph Here.</p>
+        <a href="Information.html">
+        <button>Learn More Here!</button>
+        </a>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; Copyright <span id="year"> </span> IMS 222 Coders</p>
+        <script>
+            var d = new Date();
+            document.getElementById("year").innerHTML = d.getFullYear();
+        </script>
+    </footer>
+</body></html>
