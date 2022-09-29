@@ -1,0 +1,39 @@
+ .brand-logo,
+        h2,
+        h5, h1 {
+            margin-left: 20px;
+            font-family: 'Lato', sans-serif
+        }
+
+        h2,
+        h5,
+        p,
+        li {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .Cons,
+        .how, .power,.pros, .take {
+            margin-left: 75px;
+            padding-top: 20px;
+            font-weight: bolder
+        }
+   /*header*/
+        header{height: 30px;}
+        nav,  footer {  clear:both;
+        background-color: #aeaca8;
+        color: #fff;   height: 30px;}
+        
+        
+  nav ul{margin: 0px; 
+        padding: 5px 0px 5px 30px;
+        }
+        nav li{display: inline;
+        margin-right: 40px;}
+        
+        nav li a{color: #fff;}
+        
+        a{text-decoration: none;}
+        nav li a:hover, nav li a.current
+        {color:blue;} 
+        
